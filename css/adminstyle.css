@@ -1,0 +1,35 @@
+.navbar-brand{
+font-family: "Ubuntu",sans-serif;
+font-size:3em;
+font-weight: bold;
+color :green;
+}
+
+.card{
+    margin-left: 100px;
+}
+
+.box{
+ position: fixed;
+ bottom: 50px;
+ right: 75px;
+ margin-top: 40px;
+ width: 50px;
+ height: 40px;
+}
+.jumbotron{
+    padding:2rem 1rem;margin-bottom:2rem;background-color:#e9ecef;border-radius:.3rem
+    }
+@media (min-width:576px)
+    {
+    .jumbotron{
+    padding:4rem 2rem
+    }
+    }
+.jumbotron-fluid
+    {
+    padding-right:0;padding-left:0;border-radius:0
+    }
+.form-group{
+    margin:20px;
+}

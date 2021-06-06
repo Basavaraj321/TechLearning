@@ -1,0 +1,104 @@
+.navbar-brand{
+font-family: 'Ubuntu Condensed', sans-serif;
+font-size: 3em;
+font-weight: bolder;
+padding-left: 2%;
+
+}
+.custom-nav{
+    padding-left: 2%;
+}
+.custom-nav .custom-nav-item a{
+    color: white !important;
+}
+.custom-nav-item:hover{
+    font-weight: bold;
+    background-color:rgba(235, 66, 66, 0.952);
+    border: solid rgba(235, 66, 66, 0.952) 1px;
+    border-radius: 10px;
+}
+
+.remove-vid-marg{
+    margin:0px;
+    padding:0px;
+}
+.vid-parent{
+    position: relative;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.vid-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:#225470;
+    z-index: 1;
+    opacity:0.8;
+}
+
+.vid-content{
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 38%;
+    color: greenyellow !important;
+}
+.my-content{
+    margin-bottom: 10px;
+}
+.my-content2{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.btn{
+    margin-top: 10px;
+}
+.stripe{
+    background-image: linear-gradient(500deg,orange,brown);
+    padding:3rem;
+    height: 13rem;
+    margin-top: 5rem;
+    transform: rotate(-10deg);
+    z-index: -5;
+    
+    
+}
+a.social-hover:hover{
+    padding:5px 100px;
+    text-decoration: solid;
+    background-color: rgb(95, 93, 93);
+}
+.bg-danger{
+    margin-top: 5px;
+}
+.centerorder{
+    text-align: center;
+    
+}
+
+
+@media screen and (min-width:0px) and (max-width: 700px){
+    .my-content,
+    .my-content2,
+    .stripe{
+        display: none;
+    }
+    .vid-content{
+        top:12%;
+        left:40%;
+    }
+    .custom-nav .custom-nav-item a{
+        color:pink !important;
+        background-color:black ;
+        padding-left: 20px;
+    }
+
+}
+
+
